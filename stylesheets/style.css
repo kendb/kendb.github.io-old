@@ -25,3 +25,24 @@ body {
     from {background-position: 0px 0px;}
     to {background-position: 500px 250px;}
 }
+#leftbutton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#leftbutton img {
+    max-width: 88px;
+    max-height: 31px;
+    padding: 1px;
+}
+a {
+    text-decoration: none;
+}
+#kirby {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+#kirbyimg {
+    max-width: 80px;
+}
