@@ -7,14 +7,15 @@ body {
 
 #upper {
     padding: 1px;
-    font-size: 1.5rem;
-    color: rgb(0, 255, 128);
-    background-color: rgba(128, 137, 163, 0.548);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(255, 107, 206);
     text-align: center;
-    text-shadow: 1px 1px black, 0px 0px 10px black;
+    text-shadow: 3px 1px black, 0px 0px 10px rgb(0, 255, 85);
 }
 
 #imgs {
+    padding-top: 2%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -23,6 +24,7 @@ body {
     padding-bottom: 3%;
 }
 img {
+    
     max-height: 280px;
     outline: 2px solid black;
     outline-offset: -3px;
@@ -31,8 +33,13 @@ img {
 a {
     text-decoration: none;
     color: rgb(0, 255, 128);
+    background-color: rgba(37, 42, 58, 0.767);
     font-size: 1.1rem;
     font-weight: bold;
     font-family: "Helvetica Neue", "Arial", sans-serif;
     text-shadow: 1px 1px black, 0px 0px 10px black;
+}
+#epic {
+    background-color: rgba(128, 137, 163, 0.548);
+    padding: 1%;
 }
