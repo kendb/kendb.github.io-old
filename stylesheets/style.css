@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/966942472334893119/966968863017287690/gif.gif");
+    background-position: center;
+    animation: goatmove 4s infinite linear;
+    background-color:rgb(63, 47, 61);
+    color: #BDFFFF;
+    font-size: 150%;
+}
+
+#upper {
+    padding: 1px;
+    background-color: rgba(131, 97, 139, 0.795);
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(131, 97, 139, 0.795);
+    padding-bottom: 2%;
+}
+
+@keyframes goatmove {
+    from {background-position: 0px 0px;}
+    to {background-position: 500px 250px;}
+}
