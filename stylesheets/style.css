@@ -29,6 +29,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 25%;
 }
 #leftbutton img {
     max-width: 88px;
