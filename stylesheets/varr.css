@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(128, 137, 163, 0.548);
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 img {
     
@@ -29,8 +29,10 @@ img {
     outline: 2px solid black;
     outline-offset: -3px;
     padding: 3px;
+    
 }
 a {
+    margin:0 0 14px 0;
     text-decoration: none;
     color: rgb(0, 255, 128);
     background-color: rgba(37, 42, 58, 0.767);
@@ -40,6 +42,6 @@ a {
     text-shadow: 1px 1px black, 0px 0px 10px black;
 }
 #epic {
-    background-color: rgba(128, 137, 163, 0.548);
-    padding: 1%;
+    background-color: rgba(128, 137, 163, 0.8);
+    color: crimson;
 }
