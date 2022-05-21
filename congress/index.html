@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/congress/congress.css">
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+</head>
+
+<body>
+    
+    <div id="schedule">
+        <div id="days">SUNDAY<br><br> God's day.</div>
+        <div id="days">MONDAY</div>
+        <div id="days">TUESDAY<br><br>Epic Tuesday Tuesday winning</div>
+        <div id="days">WEDNESDAY<br><br>Morbius Meeting</div>
+        <div id="days">THURSDAY</div>
+        <div id="days">FRIDAY</div>
+        <div id="days">SATURDAY<br><br>Congressional Hearing</div>
+    </div>
+    </br>
+    <div id="twitchsection">
+        <div id="twitch-embed"></div>
+        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+        <script type="text/javascript">
+        new Twitch.Player("twitch-embed", {
+            channel: "sluggoat",
+            height: "100%",
+            width: "100%",
+            parent: ["127.0.0.1", "congress.varr.gay", "varr.gay"]
+        });
+        </script>
+
+        <iframe
+             id="chat_embed"
+             src="https://www.twitch.tv/embed/sluggoat/chat?darkpopout&parent=127.0.0.1&parent=www.varr.gay&parent=congress.varr.gay"
+             height="100%"
+             width="20%">
+        </iframe>
+    </div>
+    <img id="flag" src="https://cdn.discordapp.com/attachments/966942472334893119/977404505404629072/flag.gif">
+</body>
