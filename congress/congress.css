@@ -8,30 +8,44 @@
     flex-wrap: wrap;
     height: 600px;
     justify-content: center;
+    outline: rgb(68, 103, 112) solid 3px;
+    background-color: rgb(68, 103, 112);
+    padding-bottom: 4px;
 }
 body {
-    background-color: rgb(120, 137, 145);
+    background-color: rgb(130, 187, 202);
+    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
-iframe {
-    outline-style: none;
-}
+
 #twitch-embed {
     flex-grow: 3;
 }
+
 #days {
+    text-align: center;
     width: 10%;
     min-width: 100px;
     min-height: 100px;
-    outline: 2px;
-    outline-style: solid;
+    outline: rgb(103, 137, 146) solid 2px;
     padding: 8px;
-    margin: 1px;
     background-color: lightblue;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 90%;
+    
 }
 #flag {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: -40px;
     width: 200px;
     height: 150px;
+}
+#schedtext {
+    background-color: rgb(204, 237, 250);
+    outline: rgb(103, 137, 146) solid 2px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: small;
 }
