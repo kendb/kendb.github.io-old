@@ -45,3 +45,9 @@ a {
     background-color: rgba(128, 137, 163, 0.8);
     color: crimson;
 }
+#killbutton {
+    opacity: 70%;
+    bottom: 8px;
+    right: 5px;
+    position: fixed;
+}

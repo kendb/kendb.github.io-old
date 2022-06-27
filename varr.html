@@ -37,6 +37,16 @@
       </a>
     </div>
     </br>
-      <a id="epic" href="/home">! take me back !</a>
+    <a id="epic" href="/home">! take me back !</a>
+    <div class="stopbg">
+      <button onclick="button.remove()" id="killbutton">kill moving bg</button>
+      <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+          document.body.style.backgroundImage = 'url("https://cdn.discordapp.com/attachments/966942472334893119/990673161328685156/ytp_bitch_trans.png")';
+        });
+      </script>
+    </div>
+
   </body>
 </html>

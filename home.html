@@ -97,13 +97,24 @@
       <img src="https://cdn.discordapp.com/attachments/966942472334893119/976043879457488916/ssnow2.gif">
       <img src="https://cdn.discordapp.com/attachments/966942472334893119/976043879210053632/lynxenh.gif">
       <img src="https://cdn.discordapp.com/attachments/966942472334893119/977169984188993536/unknown.png">
-
     </div>
+    <img onclick="warriorimg.remove()" title="click to hide" id="warriorimg" src="https://cdn.discordapp.com/attachments/966942472334893119/990012593441751040/warrior_award.jpg">
+    
+    <div class="stopbg">
+      <button onclick="button.remove()" id="killbutton">kill moving bg</button>
+      <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', () => {
+          document.body.style.animation = 'none';
+          document.body.style.backgroundImage = 'url("https://cdn.discordapp.com/attachments/966942472334893119/990673161328685156/ytp_bitch_trans.png")';
+        });
+      </script>
+    </div>
+
     <div id="kirby">
       <a href="https://www.nintendo.co.jp/n02/shvc/p_akfj/index.html" target="_blank">
         <img id="kirbyimg" src="https://www.nintendo.co.jp/n02/shvc/p_akfj/p_akfj_ca.gif">
       </a>
-      
     </div>
   </body>
 </html>
